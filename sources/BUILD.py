@@ -1,10 +1,10 @@
-import os 
+import os
 import subprocess
 
 
 try:
     print("**** Running Fontmake ******************************\n")
-    subprocess.call(['fontmake', '-g', 'sources/staatliches-regular.glyphs', '-o', 'ttf',])
+    subprocess.call(['fontmake', '-g', 'sources/Staatliches-Regular.glyphs', '-o', 'ttf',])
 except:
     print("Error! Try installing Fontmake: https://github.com/googlei18n/fontmake")
 
