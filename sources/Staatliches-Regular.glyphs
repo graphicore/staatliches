@@ -198,6 +198,17 @@ sub E R by ER.ss01;
 name = salt;
 },
 {
+code = "sub A by A.alt1;
+sub S by S.alt1;
+";
+name = ss01;
+},
+{
+code = "sub A by A.alt2;
+";
+name = ss02;
+},
+{
 automatic = 1;
 code = "script latn;
 language CAT;
